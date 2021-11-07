@@ -8,6 +8,7 @@ import {
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import timestamp from "time-stamp";
+import Spinner from "./Spinner";
 
 //TODO Add persistence to the time punch
 //TODO add time elapsed
@@ -85,7 +86,7 @@ function TimePunch() {
       </div>
     );
   } else {
-    return <h1>Rendering</h1>;
+    return <Spinner />
   }
 }
 

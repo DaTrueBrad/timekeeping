@@ -1,8 +1,18 @@
 * {
   font-family: "Roboto";
 }
+body {
+  height: 100%;
+  width: 100%;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
 .App {
   margin: 50px 5px 5px 5px;
+  height: 100%;
+  width: 100%;
   text-align: center;
 }
 footer {
@@ -35,4 +45,13 @@ footer {
   align-items: center;
   height: 100%;
   width: 100%;
+}
+
+#spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  width: 100vw;
+  justify-content: center;
 }
